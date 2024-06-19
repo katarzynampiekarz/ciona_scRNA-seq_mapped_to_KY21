@@ -2,7 +2,7 @@
 
 ## About
 
-The raw data obtained from Cao et al. (2019; GSM3764781; https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM3764781) were re-mapped to the KY21 gene models (http://ghost.zool.kyoto-u.ac.jp/download_ht.html) using RNA STARsolo package (toolshed.g2.bx.psu.edu/repos/iuc/rna_starsolo/rna_starsolo/2.7.8a) on a Galaxy server (usegalaxy.org, Galaxy Version 2.7.8a; The Galaxy Community, 2024 update) to generate files containing raw barcodes, raw genes, and raw gene counts that were then used as an input to generate Seurat objects (Seurat v4; Hao, Hao et al., 2021). The Seurat objects were then processed following the Seurat Guided Clustering Tutorial (vignettes/pbmc3k_tutorial.Rmd), with some modifications. All ten developmental stages were re-analyzed:
+The raw data obtained from Cao et al. (2019; GSE131155; https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE131155) were re-mapped to the KY21 gene models (http://ghost.zool.kyoto-u.ac.jp/download_ht.html) using RNA STARsolo package (toolshed.g2.bx.psu.edu/repos/iuc/rna_starsolo/rna_starsolo/2.7.8a) on a Galaxy server (usegalaxy.org, Galaxy Version 2.7.8a; The Galaxy Community, 2024 update) to generate files containing raw barcodes, raw genes, and raw gene counts that were then used as an input to generate Seurat objects (Seurat v4; Hao, Hao et al., 2021). The Seurat objects were then processed following the Seurat Guided Clustering Tutorial (vignettes/pbmc3k_tutorial.Rmd), with some modifications. All ten developmental stages were re-analyzed:
 
 1) iniG
 2) midG
